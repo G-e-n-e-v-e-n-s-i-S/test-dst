@@ -1,4 +1,13 @@
 installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magicseteditor.zip
+	downloadable:		true
+	package:
+		name:				Magic Set Editor
+		version:			2.5.8
+		installer group:	Magic Set Editor
+		short name:			Magic Set Editor
+		full name:			Application
+installer:
 	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/en.mse-locale.mse-installer
 	downloadable:		true
 	package:
