@@ -1,4 +1,29 @@
 installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/en.mse-locale.mse-installer
+	downloadable:		true
+	package:
+		name:				en.mse-locale
+		version:			2025-06-18
+		installer group:	translations/english
+		short name:			English
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/en.mse-locale.icon.png
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-blends.mse-include.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-blends.mse-include
+		version:			2024-10-01
+		installer group:	Unknown/magic-blends.mse-include
+		short name:			Magic The Gathering, card blend utilities
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-default-image.mse-include.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-default-image.mse-include
+		version:			2007-09-23
+		installer group:	Unknown/magic-default-image.mse-include
+		short name:			Magic The Gathering, placeholder images
+installer:
 	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.mse-installer
 	downloadable:		true
 	package:
@@ -83,3 +108,100 @@ installer:
 		depends on:
 			package: magic-mainframe-extras.mse-include
 			version: 2018-01-01
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-m15-altered.mse-style.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-m15-altered.mse-style
+		version:			2025-10-05
+		installer group:	magic/m15 style/normal cards
+		short name:			M15 Mainframe
+		full name:			M15 w/Text altering
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-m15-altered.mse-style.icon.png
+		depends on:
+			package: magic.mse-game
+			version: 2020-04-25
+		depends on:
+			package: magic-default-image.mse-include
+			version: 2007-09-23
+		depends on:
+			package: magic-mana-large.mse-symbol-font
+			version: 2007-09-23
+		depends on:
+			package: magic-mana-small.mse-symbol-font
+			version: 2007-09-23
+		depends on:
+			package: magic-mainframe-extras.mse-include
+			version: 2018-01-01
+		depends on:
+			package: magic-modules.mse-include
+			version: 2024-10-01
+		depends on:
+			package: magic-pride.mse-include
+			version: 2024-05-22
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-m15-mainframe-dfc.mse-style.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-m15-mainframe-dfc.mse-style
+		version:			2024-09-06
+		installer group:	magic/m15 style/double-faced cards
+		short name:			Mainframe DFC
+		full name:			M15 DFCs
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-m15-mainframe-dfc.mse-style.icon.png
+		depends on:
+			package: magic.mse-game
+			version: 2014-06-25
+		depends on:
+			package: magic-mana-large.mse-symbol-font
+			version: 2007-09-23
+		depends on:
+			package: magic-mana-small.mse-symbol-font
+			version: 2007-09-23
+		depends on:
+			package: magic-modules.mse-include
+			version: 2024-10-01
+		depends on:
+			package: magic-mainframe-extras.mse-include
+			version: 2017-05-05
+		depends on:
+			package: magic-default-image.mse-include
+			version: 2007-09-23
+		depends on:
+			package: magic-pride.mse-include
+			version: 2021-05-26
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-modules.mse-include.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-modules.mse-include
+		version:			2024-10-01
+		installer group:	Unknown/magic-modules.mse-include
+		short name:			Magic The Gathering, frame building modules
+		depends on:
+			package:			magic.mse-game
+			version:			2014-06-25
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-pride.mse-include.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-pride.mse-include
+		version:			2024-05-22
+		installer group:	Unknown/magic-pride.mse-include
+		short name:			Magic The Gathering, pride flags
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.mse-installer
+	downloadable:		true
+	package:
+		name:				magic.mse-game
+		version:			2025-06-14
+		installer group:	magic/game files
+		short name:			Magic
+		full name:			Magic the Gathering
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.icon.png
+		depends on:
+			package: magic-blends.mse-include
+			version: 2024-10-01
+		depends on:
+			package: magic-modules.mse-include
+			version: 2024-10-01
