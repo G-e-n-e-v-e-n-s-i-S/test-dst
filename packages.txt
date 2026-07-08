@@ -33,6 +33,28 @@ installer:
 		installer group:	Unknown/magic-default-image.mse-include
 		short name:			Magic The Gathering, placeholder images
 installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.mse-installer
+	downloadable:		true
+	package:
+		name:				magic-kasu-eldrazi_750.mse-style
+		version:			2024-08-01
+		installer group:	Unknown/magic-kasu-eldrazi_750.mse-style
+		short name:			Eldrrrrrrrrrr
+		full name:			by kasu_mtg
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.icon.png
+		depends on:
+			package: magic.mse-game
+			version: 2014-06-25
+		depends on:
+			package: magic-modules.mse-include
+			version: 2024-10-01
+		depends on:
+			package: magic-mana-large.mse-symbol-font
+			version: 2007-09-23
+		depends on:
+			package: magic-mana-small.mse-symbol-font
+			version: 2007-09-23
+installer:
 	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-legend_750.mse-style.mse-installer
 	downloadable:		true
 	package:
