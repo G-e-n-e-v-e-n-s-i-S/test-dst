@@ -24,15 +24,15 @@ installer:
 		installer group:	Unknown/magic-default-image.mse-include
 		short name:			Magic The Gathering, placeholder images
 installer:
-	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.mse-installer
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-legend_750.mse-style.mse-installer
 	downloadable:		true
 	package:
-		name:				magic-kasu-eldrazi_750.mse-style
+		name:				magic-kasu-legend_750.mse-style
 		version:			2024-08-01
-		installer group:	Unknown/magic-kasu-eldrazi_750.mse-style
-		short name:			Eldrrrrrrrrrr
+		installer group:	Unknown/magic-kasu-legend_750.mse-style
+		short name:			Elder Scrolls
 		full name:			by kasu_mtg
-		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.icon.png
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-legend_750.mse-style.icon.png
 		depends on:
 			package: magic.mse-game
 			version: 2014-06-25
