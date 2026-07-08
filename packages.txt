@@ -30,7 +30,7 @@ installer:
 		name:				magic-kasu-eldrazi_750.mse-style
 		version:			2024-08-01
 		installer group:	Unknown/magic-kasu-eldrazi_750.mse-style
-		short name:			Eldr
+		short name:			Eld
 		full name:			by kasu_mtg
 		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic-kasu-eldrazi_750.mse-style.icon.png
 		depends on:
