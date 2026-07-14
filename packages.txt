@@ -198,3 +198,19 @@ installer:
 		version:			2024-05-22
 		installer group:	Unknown/magic-pride.mse-include
 		short name:			Magic The Gathering, pride flags
+installer:
+	url:				https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.mse-installer
+	downloadable:		true
+	package:
+		name:				magic.mse-game
+		version:			2025-06-14
+		installer group:	magic/game files
+		short name:			Magic
+		full name:			Magic the Gathering2
+		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.icon.png
+		depends on:
+			package: magic-blends.mse-include
+			version: 2024-10-01
+		depends on:
+			package: magic-modules.mse-include
+			version: 2024-10-01
