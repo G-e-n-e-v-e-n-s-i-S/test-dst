@@ -206,7 +206,7 @@ installer:
 		version:			2026-06-14
 		installer group:	magic/game files
 		short name:			Magic
-		full name:			Magic the Gathering2
+		full name:			Magic the Gathering
 		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.icon.png
 		depends on:
 			package: magic-blends.mse-include
