@@ -203,7 +203,7 @@ installer:
 	downloadable:		true
 	package:
 		name:				magic.mse-game
-		version:			2031-02-28
+		version:			2032-02-28
 		installer group:	magic/game files
 		short name:			Magic
 		full name:			Magic the Gathering
