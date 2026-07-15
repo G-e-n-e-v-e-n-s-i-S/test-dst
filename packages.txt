@@ -203,11 +203,14 @@ installer:
 	downloadable:		true
 	package:
 		name:				magic.mse-game
-		version:			2032-02-28
+		version:			2033-02-28
 		installer group:	magic/game files
 		short name:			Magic
 		full name:			Magic the Gathering
 		icon url:			https://github.com/MagicSetEditorPacks/Installer-Pack/raw/refs/heads/main/magic.mse-game.icon.png
+		read only file: custom_addons
+		read only file: custom_script
+		read only file: keywords_custom
 		depends on:
 			package: magic-blends.mse-include
 			version: 2026-02-28
