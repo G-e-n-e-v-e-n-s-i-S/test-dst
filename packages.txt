@@ -3,7 +3,7 @@ installer:
 	downloadable:		true
 	package:
 		name:				Magic Set Editor
-		version:			2.5.8
+		version:			2.6.0
 		installer group:	Magic Set Editor
 		short name:			Magic Set Editor
 		full name:			Application
@@ -203,7 +203,7 @@ installer:
 	downloadable:		true
 	package:
 		name:				magic.mse-game
-		version:			2027-02-28
+		version:			2028-02-28
 		installer group:	magic/game files
 		short name:			Magic
 		full name:			Magic the Gathering
